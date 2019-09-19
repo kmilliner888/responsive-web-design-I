@@ -279,3 +279,29 @@ address {
        width: 100%;
    }
 }
+
+
+/* DESKTOP VIEW 1200px */
+
+@media (min-width: 1200px) {
+    body {
+        width: 1200px;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    nav {
+        width: 80%;
+        align-items: flex-start;
+    }
+
+    .logo-container {
+        width: 20%;
+    }
+
+}
