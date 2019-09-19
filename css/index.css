@@ -69,10 +69,10 @@ h1, h2, h3, h4, h5 {
 
 
 
-/* MOBILE FIRST 375px */
+/* MOBILE FIRST 320px */
 
 body {
-	min-width: 375px;
+	min-width: 320px;
 }
 
 /* HEADER SECTION */
