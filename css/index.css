@@ -69,10 +69,10 @@ h1, h2, h3, h4, h5 {
 
 
 
-/* MOBILE FIRST 500px */
+/* MOBILE FIRST 375px */
 
 body {
-	width: 500px;
+	min-width: 375px;
 }
 
 /* HEADER SECTION */
@@ -241,9 +241,6 @@ address {
 /* TABLET VIEW: 800px */
 
 @media (min-width: 800px) {
-    body {
-        width: 800px;
-    }
 
     nav {
         display: flex;
@@ -284,9 +281,6 @@ address {
 /* DESKTOP VIEW 1200px */
 
 @media (min-width: 1200px) {
-    body {
-        width: 1200px;
-    }
 
     .nav-bar {
         display: flex;
